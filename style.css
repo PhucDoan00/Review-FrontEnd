@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(17, 24, 39);
+}
+.header {
+  /* margin: 0px 8px; */
+  padding: 18px 12px;
+  /* background-color: #0b0338; */
+  display: flex;
+  justify-content: space-between;
+  /* Have to use position relative to active z-index!! */
+  position: relative;
+  /* z-index: 1; */
+  max-width: 1200px;
+}
+.text {
+  font-weight: 400;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginDiv {
+  justify-content: flex-end;
+  align-items: center;
+}
+.mt-50 {
+  margin-right: 50px;
+}
+.btn {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 15px;
+  width: 125px;
+  border-radius: 56px;
+  border: none;
+  color: white;
+  background-color: #539d98;
+}
+.w-Bg {
+  position: relative;
+  width: 100%;
+}
+.object-cover {
+  object-fit: cover;
+}
+
+.posSection {
+  position: relative;
+}
+.turboHeader {
+  margin: 0;
+  /* font-weight: 700; */
+  font-size: 60px;
+  /* line-height: 72px; */
+  color: white;
+}
+.txt-brand-teal {
+  color: #90cac7;
+}
+.txt-hero-block {
+  max-width: 568px;
+}
+.textPara {
+  color: white;
+  max-width: 601px;
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 130%;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.padding {
+  padding: 14px 36px;
+}
+.btnStyle {
+  background-color: white;
+  color: #539d98;
+  border: none;
+  border-radius: 5px;
+}
+.rounded-border {
+  border-radius: 5px;
+}
+.absolute {
+  position: absolute;
+}
+.pos {
+  position: relative;
+  top: 0px;
+  /* left: 80px; */
+}
+.z-10 {
+  z-index: 2;
+}
+.posVideo {
+  top: -102px;
+}
+.contentPadding {
+  /* padding: 0px 12px; */
+  /* padding-top: 100px; */
+  max-width: 1200px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.txt-16px {
+  font-size: 16px;
+}
+.txt-36 {
+  font-size: 36px;
+}
+.h-450px {
+  height: 450px;
+}
+
+/* sm screen size */
+@media (min-width: 640px) {
+  .sm\:txt-60px {
+    font-size: 60px;
+  }
+  .sm\:txt-20px {
+    font-size: 20px;
+  }
+  .sm\:h-689px {
+    height: 689px;
+  }
+}
+
+/* md screen size */
+@media (min-width: 768px) {
+  .md\:h-689px {
+    height: 689px;
+  }
+}
